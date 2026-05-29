@@ -15,7 +15,7 @@ int main() {
     scanf("%d", &potencia);
 
     for(int i = 1; i <= potencia; i++) {
-        res *= base;
+        res *= base ; // res = res * base
     }
     
     printf("O resultado da conta é %d\n", res);
