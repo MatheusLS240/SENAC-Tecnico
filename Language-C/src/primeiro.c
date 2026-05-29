@@ -7,5 +7,4 @@ int main(){
     scanf("%d",&j);
     printf("O valor digitado pelo usuario é %d\n\n",j);
     return 0;
-
 }

@@ -17,10 +17,10 @@ int main() {
     int *ptrNum2 = &num2;
 
     printf("O valor de num1 é %d\n", num1);
-    printf("O endereço de num1 é %d\n", *ptrNum1);
+    printf("O endereço de num1 é %p\n", ptrNum1);
 
     printf("O valor de num2 é %d\n", num2);
-    printf("O endereço de num2 é %d\n", *ptrNum2);
+    printf("O endereço de num2 é %p\n", ptrNum2);
 
     printf("O resultado é %d\n", soma(num1, num2));
 

@@ -32,6 +32,5 @@ int main() {
     printf("Endereço da memória da variavel num4: %p \n", &num4);
     printf("Endereço da memória da variavel media: %p \n", &media);
 
-
     return 0;
 }

@@ -14,4 +14,6 @@ int main(){
         printf("\n");
         linha++;
     }
+
+    return 0;
 }
