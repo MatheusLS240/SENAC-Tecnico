@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int soma(int v1, int v2) {
-    printf("O valor de v1 em soma é %d\n", v1);
-    printf("O endereço de v1 em soma é %p\n", &v1);
+int soma(int *v1, int *v2) {
+    printf("O valor de v1 em soma é %d\n", *v1);
+    printf("O endereço de v1 em soma é %p\n", v1);
 
-    printf("O valor de v2 em soma é %d\n", v2);
-    printf("O endereço de v2 em soma é %p\n", &v2);
+    printf("O valor de v2 em soma é %d\n", *v2);
+    printf("O endereço de v2 em soma é %p\n", v2);
 
-    return v1 + v2;
+    return *v1 + *v2;
 }
 
 int main() {
@@ -22,7 +22,7 @@ int main() {
     printf("O valor de num2 é %d\n", num2);
     printf("O endereço de num2 é %p\n", ptrNum2);
 
-    printf("O resultado é %d\n", soma(num1, num2));
+    printf("O resultado é %d\n", soma(&num1, &num2));
 
     return 0;
 }
