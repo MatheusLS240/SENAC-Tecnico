@@ -7,7 +7,7 @@ int main() {
     int i;
 
     for (i = 0; i < 100; i++) {
-        print("=");
+        printf("=");
     }
     printf("\nPrograma de Cadastro\n");
     
@@ -16,7 +16,26 @@ int main() {
     char email[50];
     int idade;
 
-    FILE *arquivo = fopen('files/cadastro.txt', 'w');
+    printf("Insira seu nome: ");
+    fgets(primeiroNome, 10, stdin);
+    printf("Insira seu sobrenome: ");
+    fgets(segundoNome, 10, stdin);
+    printf("Insira seu email: ");
+    fgets(email, 50, stdin);
+    printf("Insira sua idade: ");
+    scanf("%d", &idade);
+
+    FILE *arquivo = fopen("../files/cadastro.txt", "a");
+    
+    fprintf(arquivo, "Nome: %s", primeiroNome);
+    fprintf(arquivo, "Sobrenome: %s", segundoNome);
+    fprintf(arquivo, "E-Mail: %s", email);
+    fprintf(arquivo, "Idade: %d\n", idade);
+    for (i = 0; i < 100; i++) {
+        fprintf(arquivo, "=");
+    }
+
+    fclose(arquivo);
 
     return 0;
 }
