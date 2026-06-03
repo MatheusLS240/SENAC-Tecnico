@@ -12,3 +12,25 @@ Forma de pagamento: Parcelado
 Quantidade de parcelas: 10
 Valor da parcela: 575.00
 ======================================================
+Nome do cliente: Stenio
+Nome do vendedor: Ednaldo Pereira
+Nome do produto: Geladeira_eletrolux_4_portas
+Preço do produto: 2700.00
+Forma de pagamento: A vista
+======================================================
+Nome do cliente: Ednaldo
+Nome do vendedor: Gustavo
+Nome do produto: Cama de gato
+Preço do produto: 1725.00
+Forma de pagamento: Parcelado
+Quantidade de parcelas: 12
+Valor da parcela: 143.75
+======================================================
+Nome do cliente: gustavo
+Nome do vendedor: matheus
+Nome do produto: consolo
+Preço do produto: 7705.00
+Forma de pagamento: Parcelado
+Quantidade de parcelas: 1
+Valor da parcela: 7705.00
+======================================================
