@@ -1,0 +1,14 @@
+Nome do cliente: gabriel
+Nome do vendedor: matheus
+Nome do produto: playstation 5
+Preço do produto: 4500.00
+Forma de pagamento: A vista
+======================================================
+Nome do cliente: gabriel 
+Nome do vendedor: matheus
+Nome do produto: playstation 5
+Preço do produto: 5750.00
+Forma de pagamento: Parcelado
+Quantidade de parcelas: 10
+Valor da parcela: 575.00
+======================================================

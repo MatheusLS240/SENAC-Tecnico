@@ -30,7 +30,7 @@ int main() {
         formaPagamento = formaPagamentoInt == 1 ? true : false;
 
         if (formaPagamento) {
-            produtoPreco -= (produtoPreco * 0.10);
+            produtoPreco -= (produtoPreco * 0.10); // produtoPreco = produtoPreco - (produtoPreco * 0.10)
         } else {
             produtoPreco += (produtoPreco * 0.15);
 
