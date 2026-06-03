@@ -1,5 +1,8 @@
 # Estudo da linguagem C e NASM
-## Aplicada a lógica de programação e algoritimo
+
+## A linguagem NASM foi utilizada para entender o funcionamento das linguagens de alto nivel por tras dos panos
+
+## Aplicada a lógica de programação e algoritimo utlizando linguagem C
 
 <p align="center">
     <img src="logo.jpg" width="300" height="300">
@@ -40,3 +43,5 @@ int main() {
     
     return 0;
 }
+
+```
