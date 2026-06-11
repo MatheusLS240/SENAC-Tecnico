@@ -6,10 +6,6 @@ A linguagem **NASM (Netwide Assembler)** foi utilizada para compreender o funcio
 
 Além disso, foram aplicados conceitos de **lógica de programação** e **algoritmos** utilizando as linguagens **C** e **Python**, explorando desde os fundamentos da programação estruturada até a automação de tarefas e o desenvolvimento de aplicações.
 
-<p align="center">
-    <img src="logo.jpg" width="300" height="300" alt="Logo do projeto">
-</p>
-
 ---
 
 ## Conteúdo Estudado
