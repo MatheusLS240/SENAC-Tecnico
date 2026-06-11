@@ -1,10 +1,10 @@
-# Estudo da Linguagem C e NASM
+# Estudo da Linguagem C, Python e NASM
 
 ## Objetivo
 
 A linguagem **NASM (Netwide Assembler)** foi utilizada para compreender o funcionamento interno das linguagens de alto nível, permitindo uma visão mais próxima do hardware e do processo de execução dos programas.
 
-Além disso, foram aplicados conceitos de **lógica de programação** e **algoritmos** utilizando a linguagem **C**, uma das linguagens mais importantes para o estudo da programação estruturada e do desenvolvimento de sistemas.
+Além disso, foram aplicados conceitos de **lógica de programação** e **algoritmos** utilizando as linguagens **C** e **Python**, explorando desde os fundamentos da programação estruturada até a automação de tarefas e o desenvolvimento de aplicações.
 
 <p align="center">
     <img src="logo.jpg" width="300" height="300" alt="Logo do projeto">
@@ -14,31 +14,38 @@ Além disso, foram aplicados conceitos de **lógica de programação** e **algor
 
 ## Conteúdo Estudado
 
-Neste repositório são abordadas as principais estruturas e conceitos da linguagem C:
+Neste repositório são abordadas as principais estruturas e conceitos das linguagens C e Python:
 
 * Variáveis
+* Tipos de Dados
+* Operadores Aritméticos, Relacionais e Lógicos
 * Comandos de Entrada e Saída (I/O - Input/Output)
 
-  * `printf()`
-  * `scanf()`
+  * `printf()` e `scanf()` (C)
+  * `print()` e `input()` (Python)
 * Estruturas de Decisão
 
   * Desvio de fluxo simples (`if`)
   * Desvio de fluxo múltiplo (`if...else`)
+  * Estruturas condicionais encadeadas (`elif`)
 * Estruturas de Repetição
 
   * `while`
   * `for`
 * Funções (Modularização)
 
-  * Funções internas (definidas no próprio arquivo `.c`)
-  * Funções externas (declaradas em arquivos `.h`)
+  * Funções internas
+  * Funções externas e módulos
 * Importação de Módulos
 
   * Bibliotecas da linguagem (`stdio.h`, `stdlib.h`, etc.)
   * Bibliotecas do usuário (`funcoes.h`)
-* Ponteiros
+  * Módulos Python (`math`, `os`, `random`, etc.)
+* Ponteiros (C)
 * Manipulação e criação de arquivos
+* Listas, Tuplas e Dicionários (Python)
+* Programação Orientada a Objetos (Python)
+* Automação de tarefas com Python
 
 ---
 
@@ -64,9 +71,26 @@ O valor é 10
 
 ---
 
+## Exemplo de Estrutura Básica em Python
+
+```python
+x = 10
+
+print(f"O valor é {x}")
+```
+
+### Saída
+
+```text
+O valor é 10
+```
+
+---
+
 ## Tecnologias Utilizadas
 
 * Linguagem C
+* Python
 * NASM (Assembly)
 * GCC
 * Linux
@@ -75,4 +99,4 @@ O valor é 10
 
 ## Objetivo do Repositório
 
-Este repositório tem como finalidade registrar os estudos e exercícios desenvolvidos durante o aprendizado das linguagens C e NASM, abordando desde conceitos básicos até tópicos mais avançados relacionados à programação de sistemas e ao funcionamento interno dos computadores.
+Este repositório tem como finalidade registrar os estudos e exercícios desenvolvidos durante o aprendizado das linguagens C, Python e NASM, abordando desde conceitos básicos até tópicos mais avançados relacionados à programação, automação, desenvolvimento de sistemas e ao funcionamento interno dos computadores.
