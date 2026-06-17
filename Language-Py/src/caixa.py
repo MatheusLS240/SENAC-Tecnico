@@ -193,7 +193,7 @@ class Caixa(QWidget):
         self.keyPressEvent = self.keyPressEvent
     
     def keyPressEvent(self, e):
-        if(e.key() == Qt.Key.Key_F3):
+        if(e.key() == Qt.Key.f3):
             print("VC DIGITOU F3")
 
 app = QApplication(argv)
