@@ -73,7 +73,7 @@
 ### Modelo de Entidade Relacional - Modelo Lógico 
 
 <p align="center">
-    <img src="img/mer-casaoliveira.png">
+    <img src="img/Modelo-Logico.png>
 </p>
 
 ### Modelo físico
