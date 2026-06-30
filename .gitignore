@@ -2,3 +2,8 @@ bin
 caixa.spec
 build
 dist
+*.mwb
+*.pdf
+*.vsdx
+*.xlsx
+*.gitignore
