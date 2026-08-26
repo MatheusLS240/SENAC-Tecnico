@@ -1,0 +1,31 @@
+services:
+  db:
+    image: mysql:latest
+    container_name: lojadb
+    restart: always
+    environment: 
+      - MYSQL_ROOT_PASSWORD=123@Matheus
+      - MYSQL_USER=Matheus
+      - MYSQL_PASSWORD=123@Matheus
+      - MYSQL_DATABASE=lojadb
+    ports:
+      - 7575:3306
+    volumes:
+      - loja-data:/var/lib/mysql
+
+  wordpress:
+    image: wordpress:latest
+    container_name: wordpress
+    environment:
+      - WORDPRESS_DB_HOST=db
+      - WORDPRESS_DB_NAME=lojadb
+      - WORDPRESS_DB_USER=Matheus
+      - WORDPRESS_DB_PASSWORD=123@Matheus
+    ports:
+      - 8585:80
+    volumes:
+      - loja-site://var/www/html
+
+volumes: 
+  loja-data:
+  loja-site: 

@@ -1,0 +1,32 @@
+services:
+  db:
+    image: mysql:latest
+    container_name: bikeneodb
+    restart: always
+    environment: 
+      - MYSQL_ROOT_PASSWORD=123@Senac
+      - MYSQL_USER=operador
+      - MYSQL_PASSWORD=operador
+      - MYSQL_DATABASE=bikeneodb
+    ports:
+      - 5050:3306
+    volumes:
+      - bikeneo-data:/var/lib/mysql
+
+
+  wordpress:
+    image: wordpress:latest
+    environment:
+      - WORDPRESS_DB_HOST=db
+      - WORDPRESS_DB_NAME=bikeneodb
+      - WORDPRESS_DB_USER=operador
+      - WORDPRESS_DB_PASSWORD=operador
+    ports:
+      - 8085:80
+    volumes:
+      - sitebikeneo://var/www/html
+
+
+volumes: 
+  bikeneo-data:
+  sitebikeneo: 
